@@ -12,8 +12,8 @@ label = tk.Label(
 it takes for you to react, and compare reaction times.
 
 Please, press the button, when it is red!''',
-    foreground="#3F3F3F",  # Set the text color to white
-    background="#E0E0E0",  # Set the background color to black
+    foreground="#3F3F3F",
+    background="#E0E0E0",
     font=("Arial Black", 9),
     width=50,
     height=5,
@@ -72,7 +72,7 @@ button = tk.Button(
 
 result = tk.Label(
     text="Your time: 0.0",
-    foreground="red",  # Set the text color to white
+    foreground="red",
     font=("Arial Black", 12),
 )
 
@@ -84,7 +84,7 @@ frame_2 = tk.Frame(
 
 incorrect = tk.Label(
     text="Incorrect click: 0",
-    foreground="red",  # Set the text color to white
+    foreground="red",
     font=("Arial", 12),
 )
 
