@@ -6,7 +6,7 @@ user_number = input("Please, enter number: ").upper()
 
 def first_func():
     if len(user_number) == 8:
-        return f"{user_number[0:2]} {user_number[2:6]} {user_number[6:8]}"
+        return user_number[0:2], user_number[2], user_number[3],user_number[4], user_number[5], user_number[6:8]
     elif len(user_number) != 8:
         return False
 
